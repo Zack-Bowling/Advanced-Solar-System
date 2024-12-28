@@ -1,7 +1,6 @@
 /*
 Zackary Bowling
-CS435 
-Project 7
+
 
 This project is a solar system simulation. The sun is in the center and the planets orbit around it.
 The planets are not to scale and the distances are not to scale. The planets are not to scale because
