@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zackary Bowling CS435 Project 7</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div id="info" style="position: absolute; top: 10px; left: 10px; color: white; z-index: 10;">
+    <h1>3D Solar System</h1>
+    <p>Project 7 explanation: This is a working solar system with custom textures</p>
+    <p>Use the mouse wheel to zoom in and out</p>
+    <p>Drag mouse to change view</p>
+    <p>Sun emits light to planets</p>
+    <p></p>
+    <p>Run this locally on a live server as it uses local images to render textures</p>
+  </div>
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="proj7.js"></script>
+</body>
+</html>
